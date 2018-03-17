@@ -116,5 +116,8 @@
     "webpack-merge": "^1.0.2",
     "yargs": "^6.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react-numeric-input": "^2.2.3",
+    "react-select": "^1.2.1"
+  }
 }
