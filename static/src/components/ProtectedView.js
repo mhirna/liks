@@ -2,6 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actionCreators from '../actions/data';
+import Input from './input';
+
+import { styles } from './scss/styles.scss';
 
 function mapStateToProps(state) {
     return {
@@ -31,7 +34,7 @@ export default class ProtectedView extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className={`${styles}`}>
                 {!this.props.loaded
                     ? <h1>Loading data...</h1>
                     :
@@ -41,6 +44,7 @@ export default class ProtectedView extends React.Component {
                         <h1>{this.props.data.data.email}</h1>
                     </div>
                 }
+                <Input />
             </div>
         );
     }

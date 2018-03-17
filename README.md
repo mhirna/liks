@@ -1,6 +1,6 @@
-# React-Redux-Flask #
+# LIKS setup
 
-Boilerplate application for a Flask JWT Backend and a React/Redux Front-End with Material UI.
+Using
 
 * Python 2.7+ or 3.x
 * Pytest
@@ -14,7 +14,6 @@ Boilerplate application for a Flask JWT Backend and a React/Redux Front-End with
 * SCSS processing
 * Webpack
 
-![screenshot](http://i.imgur.com/ZIS4qkw.png)
 
 ### Create DB
 ```sh
@@ -80,7 +79,7 @@ Most Macs already have python 2.7 installed but you may not have pip install. Yo
 
 ```
 $ python --version
-$ pip --version 
+$ pip --version
 ```
 
 If pip is not installed, you can follow this simple article to [get both homebrew and python](https://howchoo.com/g/mze4ntbknjk/install-pip-on-mac-os-x)
@@ -94,12 +93,12 @@ $ brew install python3
 Now you can check again to see if both python and pip are installed. Once pip is installed, you can download the required flask modules:
 
 ```
-$ sudo pip install flask flask_script flask_migrate flask_bcrypt 
+$ sudo pip install flask flask_script flask_migrate flask_bcrypt
 ```
 
-Now, you can decide on which database you wish to use. 
+Now, you can decide on which database you wish to use.
 
-#### New to MySQL? 
+#### New to MySQL?
 
 If you decide on MySQL, install the free community edition of [MySQL](https://dev.mysql.com/downloads/mysql/) and [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
@@ -132,8 +131,4 @@ $ npm start
 ```
 
 6. open your browser to http://localhost:3000/register and setup your first account
-7. enjoy! By this point, you should be able to create an account and login without errors. 
-
-
-
-
+7. enjoy! By this point, you should be able to create an account and login without errors.
