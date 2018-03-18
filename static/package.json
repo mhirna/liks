@@ -101,7 +101,7 @@
     "react-tap-event-plugin": "^2.0.1",
     "react-transform-hmr": "^1.0.1",
     "redux": "^3.2.1",
-    "redux-form": "^6.0.1",
+    "redux-form": "^6.8.0",
     "redux-logger": "2.7.4",
     "redux-thunk": "^2.1.0",
     "resolve-url-loader": "^1.4.3",
@@ -118,6 +118,7 @@
   },
   "dependencies": {
     "react-numeric-input": "^2.2.3",
+    "react-redux-form": "^1.16.8",
     "react-select": "^1.2.1"
   }
 }

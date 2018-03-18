@@ -1,7 +1,9 @@
 :local(.styles h1) {
   font-size: 5vw;
 }
-
+:local(.Select-control) {
+    border-bottom: 1px solid #ccc !important;
+}
 // :local(.styles input) {
 //   width: 91vw !important;
 //   border: 1px solid grey !important;

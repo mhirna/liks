@@ -8,6 +8,7 @@ export default class NameInput extends Component{
     handleChange = (selectedOption) => {
       this.setState({selectedOption});
       console.log(`Selected: ${selectedOption.label}`);
+      this.setState({medName});
     }
 
     _parseJSON = (response) => {

@@ -3,3 +3,13 @@
 
 
 }
+:global(div .Select-control) {
+  border-top: none !important;
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+
+
+}
+// :local(.Select-control) {
+//     border-bottom: 1px solid #ccc !important;
+// }
