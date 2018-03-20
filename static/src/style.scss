@@ -1,0 +1,57 @@
+:global(body) {
+  // position: relative;
+  background-color: #f5f5f587 !important;
+
+
+}
+:global(div .Select-control) {
+  border-top: none !important;
+  border: none !important;
+  border-bottom: 1px solid #ccc !important;
+<<<<<<< HEAD
+  height: 40px;
+  padding: 10px;
+  margin: 10px;
+  vertical-align: center;
+};
+
+:global(h1){
+    margin-top: -2;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: none;
+    color: white !important;
+    font-family: "Arial Rounded MT Bold" !important;
+    font-weight: 500 !important;
+    width: 103%;
+    margin-left: 5px !important;
+};
+
+:global(img .static){
+    margin-left: -5px;
+};
+
+:global(.med){
+    margin-left: 11px;
+        // width: 106%;
+};
+:global(.mybtn){
+    font-weight: 400;
+    background-color: white !important;
+    margin-bottom: 10px !important;
+    margin-left: 25px !important;
+    text-align: center;
+    height: 50px !important;
+    width: 91% !important;
+    color: #8e74f1 !important;
+    margin-top: 10px !important;
+    box-shadow: 2px 2px 20px 1px opacity(0.3) !important;
+};
+=======
+
+
+}
+// :local(.Select-control) {
+//     border-bottom: 1px solid #ccc !important;
+// }
+>>>>>>> 60176d8d40e2880452f1335ef857ee0afa4515e0
