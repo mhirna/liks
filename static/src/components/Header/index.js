@@ -42,40 +42,7 @@ export class Header extends Component {
 
     render() {
         return (
-            // <header>
-                // <LeftNav open={this.state.open}>
-                //     {
-                //         !this.props.isAuthenticated ?
-                //             <div>
-                //                 <MenuItem onClick={() => this.dispatchNewRoute('/login')}>
-                //                     Login
-                //                 </MenuItem>
-                //                 <MenuItem onClick={() => this.dispatchNewRoute('/register')}>
-                //                     Register
-                //                 </MenuItem>
-                //             </div>
-                //             :
-                //             <div>
-                //                 <MenuItem onClick={() => this.dispatchNewRoute('/analytics')}>
-                //                     Analytics
-                //                 </MenuItem>
-                //                 <Divider />
-                //
-                //                 <MenuItem onClick={(e) => this.logout(e)}>
-                //                     Logout
-                //                 </MenuItem>
-                //             </div>
-                //     }
-                // </LeftNav>
-                <AppBar
-                  title="Liks"
-                  // onLeftIconButtonTouchTap={() => this.openNav()}
-                  // iconElementRight={
-                  //     <FlatButton label="Home" onClick={() => this.dispatchNewRoute('/')} />
-                  //   }
-                />
-            // </header>
-
+            <div></div>
         );
     }
 }

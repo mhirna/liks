@@ -15,11 +15,18 @@ require('bootstrap-webpack');
 injectTapEventPlugin();
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);
+var state = {
+    medName:'',
+    medDose:'',
+    medWhat:'',
+    medFreq:'',
+    medFreqType:'',
+};
 
 ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
-            <Redirect from="/" to="home" />
+            <Redirect from="/home" to="/" />
             {routes}
         </Router>
     </Provider>,

@@ -6,6 +6,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 /* application components */
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
+import { Home } from '../../components/Home';
 
 /* global styles for app */
 import './styles/app.scss';
@@ -20,6 +21,7 @@ class App extends React.Component { // eslint-disable-line react/prefer-stateles
             <MuiThemeProvider muiTheme={getMuiTheme()}>
                 <section>
                     <Header />
+                    <Home />
                     <div
                       className="container"
                       style={{ marginTop: 10, paddingBottom: 250 }}
@@ -27,7 +29,6 @@ class App extends React.Component { // eslint-disable-line react/prefer-stateles
                         {this.props.children}
                     </div>
                     <div>
-                        <Footer />
                     </div>
                 </section>
             </MuiThemeProvider>

@@ -1,3 +1,10 @@
 :local(.styles h1) {
   font-size: 5vw;
+  font-family: Monsart;
 }
+
+:local(.img-fluid img) {
+    margin-bottom: -15px !important;
+    max-width: 360px !important;
+    margin-right: 5px !important;
+};
